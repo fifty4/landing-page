@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     font-family: Roboto, sans-serif;
     margin: 0;
-
+    padding: 0;
 }
 
 .header {
@@ -118,4 +118,45 @@ button {
 .quote-person {
     font-weight: 700;
     text-align: end;
+}
+
+.cta-container-big {
+    font-family: Roboto, sans-serif;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cta-container-small {
+    background-color: #3882F6;
+    display: flex;
+    padding: 16px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-text-header {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cta-text-small{
+    font-size: 14px;
+}
+.cta button {
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
